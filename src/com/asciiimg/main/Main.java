@@ -11,7 +11,7 @@ public class Main {
         int width = 0;
         int height = 0;
 
-        var img = ImageFile.getImage("C:\\Users\\Pichau\\Pictures\\in.jpg", 736, 736);
+        var img = ImageFile.getImage("YOUR_IMAGE_PATH_HERE", 736, 736);
         GetASCII.createASCIIFile(img, 0.1);
     }
 }
